@@ -15,7 +15,7 @@ class DevelopmentConfig(Config):
     IP_HOST = 'localhost'
     PORT_HOST = 8000
     URL_MAIN = 'http://%s/%s' % (IP_HOST, PORT_HOST)  # http://localhost:8000
-    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://tiago.silva2:de_m7jBG^WZ=@localhost:3306/dashboard_prof'
+    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://tiago.silva2:de_m7jBG^WZ=@localhost:3306/dashboard_aula'
 
 
 app_config = {
@@ -44,4 +44,3 @@ if app_active is None:
     # PORT_HOST = 8080
     # URL_MAIN = 'http://%s/%s' % (IP_HOST, PORT_HOST)  # http://localhost:8000
     # SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://tiago.silva2:de_m7jBG^WZ=@192.0.0.1:3306/dashboard_prof'
-
